@@ -74,7 +74,7 @@ class PopChart extends Component {
           ...this.state.options.plotOptions,
           bar: {
             ...this.state.options.plotOptions.bar,
-            horizontal: !this.state.options.plotOptions.bar
+            horizontal: !this.state.options.plotOptions.bar.horizontal
           }
         }
       }
